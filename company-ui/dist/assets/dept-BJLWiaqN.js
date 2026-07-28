@@ -1,0 +1,1 @@
+import{r as t}from"./request-8OoCMHR3.js";const n={list(){return t.get("/admin/depts")},tree(){return t.get("/admin/depts/tree")},get(e){return t.get(`/admin/depts/${e}`)},create(e){return t.post("/admin/depts",e)},update(e,r){return t.put(`/admin/depts/${e}`,r)},delete(e){return t.delete(`/admin/depts/${e}`)}};export{n as d};

@@ -1,0 +1,1 @@
+import{r as e}from"./request-8OoCMHR3.js";const p={list(t){return e.get("/admin/posts",{params:t})},get(t){return e.get(`/admin/posts/${t}`)},create(t){return e.post("/admin/posts",t)},update(t,s){return e.put(`/admin/posts/${t}`,s)},delete(t){return e.delete(`/admin/posts/${t}`)}};export{p};
